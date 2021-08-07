@@ -1,0 +1,52 @@
+.showcase{
+    background: url(../img/use.jpg) no-repeat;
+    height: 500px;
+    background-position: center;
+    padding: 130px 100px;
+    color: #fff;
+}
+.showcase h1{
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #000;
+    opacity: 60.5%;
+    text-transform: uppercase;
+}
+.showcase hr{
+    width: 100px;
+    margin: auto;
+    border-width: 3px;
+    border-color: rosybrown;
+}
+.showcase p{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.section{
+ 
+    padding: 40px 0; 
+    color: #fff;   
+}
+.section h2{
+    padding: 0;
+    margin: 0;
+}
+.section .fa{
+    font-size: 50px;
+}
+.section img{
+    width: 100%;
+}
+
+@media only screen and (max-width:600px){
+    .showcase{
+        height: 400px;
+        padding: 60px 0;
+    }
+}
+@media only screen and (min-width:765px){
+    .contact{
+        width: 40%;
+       margin-left: 30%;
+    }
+}
